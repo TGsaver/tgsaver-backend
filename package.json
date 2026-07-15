@@ -1,0 +1,16 @@
+{
+  "name": "tgsaver-backend",
+  "version": "1.0.0",
+  "description": "Backend for Telegram Saver Extension",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
