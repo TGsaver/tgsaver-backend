@@ -327,7 +327,7 @@ app.post('/api/payments/create-invoice', async (req, res) => {
       amount: amount,
       currency: 'USD',
       order_id: orderId,
-      url_callback: `https://api.yourdomain.com/api/payments/heleket-webhook`, // ваш вебхук-эндпоинт
+      url_callback: `https://tgsaver-backend.onrender.com/api/payments/heleket-webhook`, // вебхук для получения статуса оплаты
       url_return: 'https://web.telegram.org/a/'
     };
 
