@@ -14,7 +14,7 @@ const DB_FILE = path.join(__dirname, 'users.json');
 
 // Настройки Heleket для приёма платежей (без ИП, принимают РФ и СНГ)
 // Замените на ваши ключи после регистрации в личном кабинете на heleket.com
-const HELEKET_MERCHANT_UUID = process.env.HELEKET_MERCHANT_UUID || '8f0fbead-6c39-48d5-899d-b4d13f460df0';
+const HELEKET_MERCHANT_UUID = process.env.HELEKET_MERCHANT_UUID || '5d8b1017-f6b4-45d4-b9a9-5ecb0f839665';
 const HELEKET_API_KEY = process.env.HELEKET_API_KEY || 'YOUR_HELEKET_API_KEY';
 const GOOGLE_WEB_CLIENT_ID = process.env.GOOGLE_WEB_CLIENT_ID || '';
 
